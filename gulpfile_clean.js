@@ -14,14 +14,14 @@ gulp.task('js', _js);
 
 //definitions
 function _sass() {
-    return gulp.src('app/styles/**/*.scss')
+    gulp.src('app/styles/**/*.scss')
         .pipe(sass())
         .pipe(autoprefixer('last 1 version'))
         .pipe(gulp.dest('dist/styles/gulp'));
 }
 
 function _js() {
-    return gulp.src('app/js/**/*.js')
+    gulp.src('app/js/**/*.js')
         .pipe(concat('calculator.js'))
         .pipe(gulp.dest('dist/js/gulp/'))
         .pipe(rename('calculator.min.js'))

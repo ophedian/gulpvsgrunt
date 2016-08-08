@@ -1,0 +1,19 @@
+body {
+  font: 100% Helvetica, sans-serif;
+  color: #333; }
+
+:-webkit-full-screen a {
+  display: flex; }
+
+:-moz-full-screen a {
+  display: flex; }
+
+:-ms-fullscreen a {
+  display: flex; }
+
+:fullscreen a {
+  display: flex; }
+
+a {
+  font: 100% Helvetica, sans-serif;
+  display: flex; }
