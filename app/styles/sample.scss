@@ -1,0 +1,16 @@
+$font-stack: Helvetica, sans-serif;
+$primary-color: #333;
+
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+}
+
+:fullscreen a {
+  display: flex
+}
+
+a {
+  font: 100% $font-stack;
+  display: flex;
+}
